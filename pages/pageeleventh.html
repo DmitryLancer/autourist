@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>АВТОЮРИСТ</title>
+	<link rel="stylesheet" type="text/css" href="../css/style_root.css">
+	<link rel="stylesheet" type="text/css" href="../css/style_headerFooter_mobile.css">
+	<link rel="stylesheet" type="text/css" href="../css/style_headerFooter_desktop.css">
+	<link rel="stylesheet" type="text/css" href="../css/style_pageeleventh_mobile.css">
+	<link rel="stylesheet" type="text/css" href="../css/style_pageeleventh_desktop.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../dist/css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="header__main__contacts__div">
+			<div class="header-main">
+				<div class="header-left">
+					<a href="#"><img class="header-logo" src="../image/header/logo.svg"></a>
+					<div class="desktop">
+						<div class="header-geo">
+							<svg class="header-geo-image" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+								fill="none">
+								<path
+									d="M10.0001 0C6.08401 0 2.91675 3.13 2.91675 7C2.91675 12.25 10.0001 20 10.0001 20C10.0001 20 17.0834 12.25 17.0834 7C17.0834 3.13 13.9162 0 10.0001 0ZM10.0001 9.5C8.60365 9.5 7.47032 8.38 7.47032 7C7.47032 5.62 8.60365 4.5 10.0001 4.5C11.3965 4.5 12.5298 5.62 12.5298 7C12.5298 8.38 11.3965 9.5 10.0001 9.5Z"
+									fill="black" />
+							</svg>
+							<span class="header-geo-city">Москва</span>
+							<div class="header__location active nonactive">
+								<div class="header-geo-city-menu">
+									<a href="" class="header-geo-city-menu-item">
+										Москва
+									</a>
+									<a href="" class="header-geo-city-menu-item">
+										Санкт-Петербург
+									</a>
+									<a href="" class="header-geo-city-menu-item">
+										Сочи
+									</a>
+									<a href="" class="header-geo-city-menu-item">
+										Казань
+									</a>
+									<a href="" class="header-geo-city-menu-item">
+										Екатеринбург
+									</a>
+									<a href="" class="header-geo-city-menu-item">
+										Новосибирск
+									</a>
+									<a href="" class="header-geo-city-menu-item">
+										Краснодар
+									</a>
+								</div>
+							</div>
+							<!-- <img src="image/header/arrow.svg"> -->
+							<div class="header__geo__arrow__div"></div>
+						</div>
+					</div>
+				</div>
+				<div class="header-right">
+					<div class="header-right-container">
+						<div class="header-call">
+							<span class="header-call-text">Звоните бесплатно</span>
+							<span class="header-call-number">8 800 201 32 36</span>
+						</div>
+						<div class="header-kontakts-container">
+							<div class="header-kontakts-container-text">
+								<span>Контакты</span>
+							</div>
+							<div class="header-kontakts-container-img header__search__open__area">
+
+								<img src="../image/header/search.svg">
+							</div>
+							<div class="header-search-div">
+								<div class="header-search-input-div">
+									<div class="header-search-input-div-helper">
+										<div class="header-search-input-minidiv">
+											<img class="header-search-img" src="../image/header/gray__search.svg">
+											<input class="header-search-input" type="text" placeholder="Введите ваш запрос..">
+										</div>
+										<button class="header-search-button"><p>Искать</p><img class="header-search-button-img" src="../image/header/right-arrow.svg" alt=""></button>
+									</div>
+									<img class="header-search-close-btn" src="../image/header/close__btn.svg" alt="">										
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-kontakts-container-img-mob mobile">
+				<div class="header-kontakts-container-img-mob-m header__search__open__area">
+					<img src="../image/header/search.svg">
+				</div>
+			</div>
+		</div>
+		<div class="header-mobile">
+			<div class="hamburger-menu">
+				<input id="menu__toggle" type="checkbox" />
+				<label class="menu__btn" for="menu__toggle">
+				  <span></span>
+				</label>
+			
+				<!-- <ul class="menu__box">
+				  <li><a class="menu__item" href="#">Главная</a></li>
+						<li><a class="menu__item" href="#">Проекты</a></li>
+						<li><a class="menu__item" href="#">Команда</a></li>
+						<li><a class="menu__item" href="#">Блог</a></li>
+						<li><a class="menu__item" href="#">Контакты</a></li>
+				</ul> -->
+				<div class="container home-front-selects menu__box">
+					<div class="header-geo menu__item">
+						<div class="header__geo__main__div">
+							<svg class="header-geo-image" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+							fill="none">
+							<path
+								d="M10.0001 0C6.08401 0 2.91675 3.13 2.91675 7C2.91675 12.25 10.0001 20 10.0001 20C10.0001 20 17.0834 12.25 17.0834 7C17.0834 3.13 13.9162 0 10.0001 0ZM10.0001 9.5C8.60365 9.5 7.47032 8.38 7.47032 7C7.47032 5.62 8.60365 4.5 10.0001 4.5C11.3965 4.5 12.5298 5.62 12.5298 7C12.5298 8.38 11.3965 9.5 10.0001 9.5Z"
+								fill="black" />
+						</svg>
+						<span class="header-geo-city">Москва</span>
+						</div>
+						<div class="header__location active nonactive">
+							<div class="header-geo-city-menu">
+								<a href="" class="header-geo-city-menu-item">
+									Москва
+								</a>
+								<a href="" class="header-geo-city-menu-item">
+									Санкт-Петербург
+								</a>
+								<a href="" class="header-geo-city-menu-item">
+									Сочи
+								</a>
+								<a href="" class="header-geo-city-menu-item">
+									Казань
+								</a>
+								<a href="" class="header-geo-city-menu-item">
+									Екатеринбург
+								</a>
+								<a href="" class="header-geo-city-menu-item">
+									Новосибирск
+								</a>
+								<a href="" class="header-geo-city-menu-item">
+									Краснодар
+								</a>
+							</div>
+						</div>
+						<!-- <img src="image/header/arrow.svg"> -->
+						<div class="header__geo__arrow__div"></div>
+					</div>
+					<div class="home-front-selects-items menu__item">
+						<div class="home-front-selects-items-mini-div">
+							<img class="home-front-selects-items-img" src="../image/home/icon1.svg">
+							<span class="home-front-selects-items-item">Вернуть права</span>
+						</div>
+						
+						<div class="active nonactive home-front-selects-items-hidden-block">
+							<div class="home-front-selects-items-menu">
+								<span class="home-front-selects-items-menu-item">
+									Сайт рыбатекст
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Поможет дизайнеру, верстальщику
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Вебмастеру сгенерировать
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Несколько абзацев
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Более менее осмысленного текста
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Рыбы на русском языке
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Начинающему оратору отточить
+								</span>
+							</div>
+						</div>
+						<!-- <img src="image/home/arrow3.svg"> -->
+						<div class="header__arrow__div"></div>
+					</div>
+					<div class="home-front-selects-items menu__item">
+						<div class="home-front-selects-items-mini-div home-front-selects-items-mini-div-second">
+							<img class="home-front-selects-items-img" src="../image/home/icon2.svg">
+							<span class="home-front-selects-items-item">Спор по ДТП</span>
+						</div>
+						
+						<div class="active nonactive home-front-selects-items-hidden-block">
+							<div class="home-front-selects-items-menu">
+								<span class="home-front-selects-items-menu-item">
+									Сайт рыбатекст
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Поможет дизайнеру, верстальщику
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Вебмастеру сгенерировать
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Несколько абзацев
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Более менее осмысленного текста
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Рыбы на русском языке
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									Начинающему оратору отточить
+								</span>
+							</div>
+						</div>
+						<!-- <img src="image/home/arrow3.svg"> -->
+						<div class="header__arrow__div"></div>
+					</div>
+					<div class="home-front-selects-items menu__item">
+						<div class="home-front-selects-items-mini-div home-front-selects-items-mini-div-last">
+							<img class="home-front-selects-items-img" src="../image/home/icon3.svg">
+							<span class="home-front-selects-items-item">Другие автоспоры</span>
+						</div>
+						
+						<div class="active nonactive home-front-selects-items-hidden-block home-front-selects-items-hidden-block-last">
+							<div class="home-front-selects-items-menu">
+								<span class="home-front-selects-items-menu-item">
+									Поможет дизайнеру, верстальщик
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									<a href="pages/pagesecond_alcohol.html">Page 2</a>
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									<a href="pages/pagethird_cashback.html">Page 3</a>
+								</span>
+								<span class="home-front-selects-items-menu-item">
+									<a href="pages/pagefourth.html">Page 4</a>
+								</span>
+								<span class="home-front-selects-items-menu-item"><a href="pages/pagefifth.html">Page 5</a>
+								</span>
+								<span class="home-front-selects-items-menu-item"><a href="pages/pagesixth.html">Page 6</a>
+								</span>
+								<span class="home-front-selects-items-menu-item"><a href="pages/pageseventh.html">Page 7</a>
+								</span>
+								<span class="home-front-selects-items-menu-item"><a href="pages/pageeighth.html">Page 8</a>
+								</span>
+								<span class="home-front-selects-items-menu-item"><a href="pages/pageninth.html">Page 9</a>
+								</span>
+								<span class="home-front-selects-items-menu-item"><a href="pages/pagetenth.html">Page 10</a>
+								</span>
+								<span class="home-front-selects-items-menu-item"><a href="pages/pageeleventh.html">Page 11</a>
+								</span>
+							</div>
+						</div>
+						<!-- <img src="image/home/arrow3.svg"> -->
+						<div class="header__arrow__div"></div>
+					</div>
+				</div>
+			  </div>
+		</div>
+
+		
+		<!-- <div class="container home-front-selects">
+			<div class="home-front-selects-items">
+				<div class="home-front-selects-items-mini-div">
+					<img class="home-front-selects-items-img" src="image/home/icon1.svg">
+					<span class="home-front-selects-items-item">Вернуть права</span>
+				</div>
+				
+				<div class="active nonactive">
+					<div class="home-front-selects-items-menu">
+						<span class="home-front-selects-items-menu-item">
+							Сайт рыбатекст
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Поможет дизайнеру, верстальщику
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Вебмастеру сгенерировать
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Несколько абзацев
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Более менее осмысленного текста
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Рыбы на русском языке
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Начинающему оратору отточить
+						</span>
+					</div>
+				</div>
+				<img src="image/home/arrow3.svg">
+			</div>
+			<div class="home-front-selects-items">
+				<div class="home-front-selects-items-mini-div">
+					<img class="home-front-selects-items-img" src="image/home/icon2.svg">
+					<span class="home-front-selects-items-item">Спор по ДТП</span>
+				</div>
+				
+				<div class="active nonactive">
+					<div class="home-front-selects-items-menu">
+						<span class="home-front-selects-items-menu-item">
+							Сайт рыбатекст
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Поможет дизайнеру, верстальщику
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Вебмастеру сгенерировать
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Несколько абзацев
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Более менее осмысленного текста
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Рыбы на русском языке
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							Начинающему оратору отточить
+						</span>
+					</div>
+				</div>
+				<img src="image/home/arrow3.svg">
+			</div>
+			<div class="home-front-selects-items">
+				<div class="home-front-selects-items-mini-div">
+					<img class="home-front-selects-items-img" src="image/home/icon3.svg">
+					<span class="home-front-selects-items-item">Другие автоспоры</span>
+				</div>
+				
+				<div class="active nonactive">
+					<div class="home-front-selects-items-menu">
+						<span class="home-front-selects-items-menu-item">
+							Поможет дизайнеру, верстальщик
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							<a href="pages/pagesecond_alcohol.html">Page 2</a>
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							<a href="pages/pagethird_cashback.html">Page 3</a>
+						</span>
+						<span class="home-front-selects-items-menu-item">
+							<a href="pages/pagefourth.html">Page 4</a>
+						</span>
+						<span class="home-front-selects-items-menu-item"><a href="pages/pagefifth.html">Page 5</a>
+						</span>
+						<span class="home-front-selects-items-menu-item"><a href="pages/pagesixth.html">Page 6</a>
+						</span>
+						<span class="home-front-selects-items-menu-item"><a href="pages/pageseventh.html">Page 7</a>
+						</span>
+						<span class="home-front-selects-items-menu-item"><a href="pages/pageeighth.html">Page 8</a>
+						</span>
+						<span class="home-front-selects-items-menu-item"><a href="pages/pageninth.html">Page 9</a>
+						</span>
+						<span class="home-front-selects-items-menu-item"><a href="pages/pagetenth.html">Page 10</a>
+						</span>
+						<span class="home-front-selects-items-menu-item"><a href="pages/pageeleventh.html">Page 11</a>
+						</span>
+					</div>
+				</div>
+				<img src="image/home/arrow3.svg">
+			</div>
+		</div> -->
+	</header>
+
+<!-- ---------------------------  -->
+	<section class="container representation pagesecond-helper">
+		<h1>Представительство Автоюрист в Москве</h1>
+		<div class="representation-container">
+			<p class="representation-p1">Автоюрист - некоммерческая организация.
+			<span>Мы не осуществляем деятельность с целью извлечения прибыли.</span></p>
+			<p class="representation-p2">Работаем под контролем Министерства Юстиции РФ</p>
+			<div class="representation-pdf">
+				<div class="representation-pdf-item">
+					<img src="../image/pageeleventh/icon_pdf.svg">
+					<div class="representation-pdf-item-span">
+						<span>Свидетельство Министерства Юстиции РФ.pdf</span>
+					</div>							
+				</div>
+				<div class="representation-pdf-item">
+					<img src="../image/pageeleventh/icon_pdf.svg">
+					<div class="representation-pdf-item-span">
+						<span>Карточка организации.pdf</span>	
+					</div>					
+				</div>
+				<div class="representation-pdf-item">
+					<img src="../image/pageeleventh/icon_pdf.svg">
+					<div class="representation-pdf-item-span">
+						<span>Свидетельство о госрегистрации.pdf</span>	
+					</div>					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container adress">
+		<div class="adress-h1">
+			<img src="../image/pageeleventh/geo.svg">
+			<h1>Адрес центрального офиса:</h1>	
+		</div>		
+		<p class="adress-main">г. Москва, ул. Автозаводская, 23а, корп. 2, оф. 311, БЦ “Парк Легенд” <br>
+		При себе иметь паспорт или водительское удостоверение. Если Вы на автомобиле – сообщите заранее и мы закажем Вам пропуск. Для получения пропуска Вам необходимо позвонить по номеру: 8 (495) 215-11-92</p>
+		<div class="adress-item">
+			<img src="../image/pageeleventh/mail.svg">
+			<span>reg@avtourist.com</span>
+		</div>
+		<div class="adress-item">
+			<img src="../image/pageeleventh/phone.svg">
+			<span>+7 (495) 215-11-92</span>
+		</div>
+		<div class="adress-item">
+			<img src="../image/pageeleventh/clock.svg">
+			<span>с 9-00 до 20-00 без выходных</span>
+		</div>
+		<div class="adress-networks">
+			<div class="adress-networks-item">
+				<div class="adress-networks-item-text">
+					<img src="../image/pageeleventh/Telegram.svg">
+					<span>Telegram</span>	
+				</div>				
+			</div>
+			<div class="adress-networks-item">
+				<div class="adress-networks-item-text">
+					<img src="../image/pageeleventh/WhatsApp.svg">
+					<span>WhatsApp</span>
+				</div>
+			</div>
+			<div class="adress-networks-item">
+				<div class="adress-networks-item-text">
+					<img src="../image/pageeleventh/Viber.svg">
+					<span>Viber</span>
+				</div>
+			</div>
+		</div>
+		<div class="adress-map-foto">
+			<iframe class="adress-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.967183547825!2d37.65710412879037!3d55.70751259559116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b3498cb0857%3A0x2b6043c6c52aa1d7!2z0JDQstGC0L7Qt9Cw0LLQvtC00YHQutCw0Y8!5e0!3m2!1sru!2s!4v1647364482129!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<div class="adress-foto-overflow">
+				<div class="adress-foto-container">
+					<a data-lightbox="testing2" href="../image/pageeleventh/ofice_foto1.png"><div class="adress-foto adress-foto1"></div></a>
+					<a data-lightbox="testing2" href="../image/pageeleventh/ofice_foto2.png"><div class="adress-foto adress-foto2"></div></a>
+					<a data-lightbox="testing2" href="../image/pageeleventh/ofice_foto3.png"><div class="adress-foto adress-foto3"></div></a>
+				</div>	
+			</div>
+		</div>
+		<h2>Как проехать</h2>
+		<div class="adress-text">
+			<p>Бизнес центр находится на 3 транспортном кольце. Удобный подъезд с любой стороны ТТК.</p>
+			<p>Со стороны Варшавского шоссе: Двигаетесь в сторону Андропова. Проезжаете ЦСКА Арену (слева от Вас будет торговый центр Ривьера), проезжаете под Автозаводским мостом и под ним сворачиваете направо. Через 50 метров синее КПП.</p>
+			<p>Со стороны Волгоградского проспекта по ТТК проезжаете торговый центр Ривьера и уходите направо по знаку «Проспект Андропова» на разворот под мост. Проезжаете ЦСКА Арену, Музей хоккея, проезжаете под Автозаводским мостом и под ним сворачиваете направо. Через 50 метров синее КПП.</p>
+		</div>
+		<h2>Как пройти</h2>
+		<div class="adress-text">
+			<p>5 минут от метро Автозаводская и станции МЦК.</p>
+			<p>Выход из метро первый вагон из центра. Слева видно здание с надписью ПАРК ЛЕГЕНД Жилой квартал. Вам нужно идти к этому зданию.</p>
+			<p>Бизнес центр находится рядом с музеем Хоккея и Ледовым дворцом ЦСКА.</p>
+			<p>Вход в БЦ со двора.</p>
+		</div>
+	</section>
+
+	<section class="container lawyers">
+		<h1>Ваши юристы</h1>
+		<div class="lawyers-container">
+			<img src="../image/pageeleventh/lawyer1.png">
+			<div class="lawyers-item">
+				<span class="lawyers-item-name">Яковлева Елена Георгиевна</span>
+				<span class="lawyers-item-position">Директор</span>
+				<span class="lawyers-item-education">Образование</span>
+				<p class="lawyers-item-education-item">Волгоградский Государственный Университет (ВолгГТУ), Московкий Институт Бизнеса и Политики (ИБП) факультет высший менеджмент-управление персоналом.</p>
+				<span class="lawyers-item-experience">Опыт работы</span>
+				<p class="lawyers-item-experience-item">10 лет из которых: более 3 лет в управлении , более 5-и лет в развитии и адаптации персонала, так же автор тренинга “учится-учить”. Опыт работы в юриспруденции более 3-х лет.</p>
+				<div class="lawyers-item-line"></div>
+			</div>
+		</div>
+		<div class="lawyers-container">
+			<img src="../image/pageeleventh/lawyer2.png">
+			<div class="lawyers-item">
+				<span class="lawyers-item-name">Белкина Яна Александровна</span>
+				<span class="lawyers-item-position">Юрист</span>
+				<span class="lawyers-item-education">Образование</span>
+				<p class="lawyers-item-education-item">Высшее, ВолГУ.</p>
+				<span class="lawyers-item-experience">Опыт работы</span>
+				<p class="lawyers-item-experience-item">Опыт работы более 5-ти лет. Занимается ведением дел в суде по оспариванию вины в ДТП, взысканию страхового возмещения со страховых компаний, взысканию ущерба с виновника ДТП. Проводит бесплатные консультации и выстраивает позицию защиты.</p>
+				<div class="lawyers-item-line"></div>
+			</div>
+		</div>
+		<div class="lawyers-container">
+			<img src="../image/pageeleventh/lawyer3.png">
+			<div class="lawyers-item">
+				<span class="lawyers-item-name">Штурбина Лариса Викторовна</span>
+				<span class="lawyers-item-position">Юрист</span>
+				<span class="lawyers-item-education">Образование</span>
+				<p class="lawyers-item-education-item">Волгоградский государственный университет (ВолГУ), Кооперативный институт бизнеса</p>
+				<span class="lawyers-item-experience">Опыт работы</span>
+				<p class="lawyers-item-experience-item">Более 17 лет в сфере автоправа. Специализация: дела об административных правонарушениях, ответственность за которые предусмотрена статьями 12.26, 12.8, 12.15, 12.27 КоАП РФ, а так же гражданские дела, дела по защите прав потребителя.</p>
+				<div class="lawyers-item-line"></div>
+			</div>
+		</div>
+		<div class="lawyers-button">
+			<button>
+				<span>Показать всех</span>
+			</button>
+		</div>
+	</section>
+	<section class="container price">
+		<h1>Стоимость услуг Автоюрист в Москве</h1>
+		<div class="price-text">
+			<p>Полная устная консультация автоюриста без ограничения количества посещений и времени на консультацию, анализ материалов дела клиента.</p>
+			<span>Бесплатно</span>	
+		</div>
+		<div class="price-text">
+			<p>Письменная консультация по e-mail, ICQ, посредством on-line формы</p>
+			<span>Бесплатно</span>	
+		</div>
+		<div class="price-text">
+			<p>Подготовка и распечатка ходатайств</p>
+			<span>Бесплатно</span>	
+		</div>
+		<div class="price-text-container">
+			<div class="price-text2">
+				<p>Подготовка комплекта документов:</p>
+				<p>-ходатайство о переносе слушания по делу,</p>
+				<p>-ходатайство об ознакомлении с материалами дела,</p>
+				<p>-привлечение понятых и свидетелей,</p>
+				<p>-ходатайство о проведении служебного расследования,</p>
+				<p>-объяснение лица по делу об административном правонарушении,</p>
+				<p>-жалоба на постановление,</p>
+				<p>-надзорная жалоба городской суд\областной суд, Верховный Суд РФ,</p>
+				<p>-заявление в прокуратуру о принесении протеста,</p>
+				<p>-все иные жалобы, заявления</p>
+				<p>-прочие документы которые необходимы для выигрыша конкретного дела включая оформление показаний свидетелей,</p>
+				<p>-заявления в ГАИ, УСБ, прокуратуру о неправомерных действиях ИДПС и пр).</p>
+				<p>-Оформление доказательств</p>
+				<p>При необходимости – запросы от общественных и госструктур.</p>
+				<p>Работа включает в себя исключение доказательств, предоставленных ГИБДД</p>
+			</div>
+			<div class="price-text-komment">
+				<p> От 10000 до 25000 рублей (в зависимости от сложности дела по которому подлежит взыскание юридических расходов)</p>
+			</div>
+		</div>
+	</section>
+
+
+
+		
+	<section class="container pagesecond-consultation">
+		<div class="pagesecond-consultation-container">
+			<h1>Получите консультацию бесплатно</h1>
+			<div class="pagesecond-consultation-inputs">
+				<input class="pagesecond-consultation-inputs-main" type="text" name="question" placeholder="Введите ваш вопрос"></input>
+				<div class="pagesecond-consultation-inputs-items">
+					<input class="pagesecond-consultation-inputs-items-item" type="text" name="name" placeholder="Ваше имя">
+					<input class="pagesecond-consultation-inputs-items-item inputs-act" type="number" name="phone" placeholder="+7">
+					<input class="pagesecond-consultation-inputs-items-item" type="text" name="E-mail" placeholder="E-mail">
+				</div>
+			</div>
+			<div class="pagesecond-consultation-person">
+				<p>Отправляя заявку вы соглашаетесь с <a href="">Условиями обработки персональных данных</a></p>
+			</div>
+			<button class="button-three">
+				<span>Получить</span>
+			</button>
+		</div>
+	</section>	
+
+	<footer>
+		<img class="footer-logo mobile" src="../image/footer/logo.svg">
+		<div class="footer-container">
+			<div class="footer-block-first">
+				<img class="footer-logo desktop" src="../image/footer/logo.svg">
+				<h5 class="footer-block-first-title">Автоюрист</h5> <!-- иконка перед текстом -->
+				
+				<span class="footer-block-first-text">Контент сайта предназначен для лиц старше 14 лет.</span>
+				
+				<span class="footer-block-first-text">Все права защищены. Перепечатка не допускается.</span>
+				<br>
+				<span class="footer-block-first-text">Автоюрист - зарегистрированный торговый знак.</span>
+				
+				<span class="footer-block-first-text">Свидетельство на товарный знак</span>
+				<span class="footer-block-first-text">Роспатент 429024 от 27.03.2009</span>
+				<br>
+				<span class="footer-block-first-text">Конкурсант национальной премии</span>
+				<span class="footer-block-first-text">за достижения в сфере безопасности</span>
+				<span class="footer-block-first-text">дорожного движения</span>
+			</div>
+			<div class="footer-block-second">
+				<h4 class="footer-block-second-title">Услуги автоюриста в Москве</h4>
+				<span class="footer-block-second-text">Возврат прав за алкоголь</span>
+				<span class="footer-block-second-text">Возврат прав за выезд на встречную</span>
+				<span class="footer-block-second-text">Возврат прав за скрытие с места ДТП</span>
+				<span class="footer-block-second-text">Суд со страховой компанией</span>
+				<span class="footer-block-second-text">Досрочный возврат прав</span>
+				<span class="footer-block-second-text">Оспорим акт медосвидетельствования</span>
+				<div class="footer-block-payment">
+					<div class="desktop">
+						<span class="footer-block-payment-text desktop">Оплатить услуги онлайн</span>
+						<span class="footer-block-payment-text">и в офисах Компании "Автоюрист"</span>
+						<div class="footer-block-payment-icons"> <!-- иконки из fontawesome ? -->
+							<img class="visa" src="../image/footer/visa.svg">
+							<img class="master" src="../image/footer/mcard.svg">
+							<img class="peace" src="../image/footer/mir.svg">
+							<img class="mbank" src="../image/footer/mbank.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-block-payment mobile">
+				<span class="footer-block-payment-text">Оплатить услуги онлайн</span>
+				<span class="footer-block-payment-text">и в офисах Компании "Автоюрист"</span>
+				<div class="footer-block-payment-icons"> <!-- иконки из fontawesome ? -->
+					<img class="visa" src="../image/footer/visa.svg">
+					<img class="master" src="../image/footer/mcard.svg">
+					<img class="peace" src="../image/footer/mir.svg">
+					<img class="mbank" src="../image/footer/mbank.svg">
+				</div>
+			</div>
+			<div class="footer-block-third">
+				<h4 class="footer-block-third-title">Полезно</h4>
+				<a class="footer-block-third-text" href="">Бланки ходатайств</a>
+				<a class="footer-block-third-text" href="">Узнай шансы по своему делу</a>
+				<a class="footer-block-third-text" href="">Книги наших юристов</a>
+			</div>
+			<div class="footer-block-fourth">
+				<h4 class="footer-block-fourth-title">О компании</h4>
+				<a class="footer-block-fourth-text" href="">Новости</a>
+				<a class="footer-block-fourth-text" href="">Информация для СМИ</a>
+				<a class="footer-block-fourth-text" href="">Наши юристы на ТВ и радио</a>
+				<a class="footer-block-fourth-text" href="">Отзывы</a>
+				<a class="footer-block-fourth-text" href="">Выигранные дела</a>
+				<a class="footer-block-fourth-text" href="">Контакты</a>
+				<a class="footer-block-fourth-text" href="">работа в Автоюрист</a>
+				<h4 class="footer-block-fourth-title">Будьте с нами</h4>
+				<div class="footer-block-fourth-net"> 
+					<i class="fab fa-vk"></i>
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-youtube"></i>
+					<i class="fab fa-instagram"></i>
+					<!-- иконки из fontawesome ? -->
+					<img src="../image/footer/Subtract.png">
+					<img src="../image/footer/boosty.png">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- модалки -->
+	<!-- страница МЕНЮ 1 -->
+	<div class="menu nonactive">
+		<div class="modal menu nonactive">
+		<div class="modal-menu-container">
+			<div class="modal-menu-header">
+				<img src="../image/modals/logo.svg">
+				<img src="../image/modals/cancel.svg">
+			</div>
+			<div class="modal-menu-items">
+				<div class="modal-menu-items-item modal-menu-items-item1">
+					<div>
+						<svg class="modal-menu-items-item-img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path d="M10.0001 0C6.08401 0 2.91675 3.13 2.91675 7C2.91675 12.25 10.0001 20 10.0001 20C10.0001 20 17.0834 12.25 17.0834 7C17.0834 3.13 13.9162 0 10.0001 0ZM10.0001 9.5C8.60365 9.5 7.47032 8.38 7.47032 7C7.47032 5.62 8.60365 4.5 10.0001 4.5C11.3965 4.5 12.5298 5.62 12.5298 7C12.5298 8.38 11.3965 9.5 10.0001 9.5Z" fill="black"/>
+						</svg>
+						<span class="modal-menu-items-item-text">Москва</span>
+					</div>
+					<img src="../image/modals/arrow.svg">
+				</div>
+				<div class="modal-menu-items-item modal-menu-items-item2">
+					<div class="modal-menu-items-item2-text">
+						<img src="../image/modals/icon1.svg">
+						<span class="modal-menu-items-item-text">Вернуть права</span>
+					</div>
+					<img src="../image/modals/arrow2.svg">
+				</div>
+				<div class="modal-menu-items-item modal-menu-items-item2">
+					<div class="modal-menu-items-item2-text">
+						<img src="../image/modals/icon2.svg">
+						<span class="modal-menu-items-item-text">Спор по ДТП</span>
+					</div>
+					<img src="../image/modals/arrow2.svg">
+				</div>
+				<div class="modal-menu-items-item modal-menu-items-item2">
+					<div class="modal-menu-items-item2-text">
+						<img src="../image/modals/icon3.svg">
+						<span class="modal-menu-items-item-text">Другие автоспоры</span>
+					</div>
+					<img src="../image/modals/arrow2.svg">
+				</div>
+				<div class="modal-menu-items-kontats">
+					<span class="modal-menu-items-kontats-text">Контакты</span>
+					<span class="modal-menu-items-kontats-text">Звоните бесплатно</span>		
+					<span class="modal-menu-items-kontats-phone">8 800 201-32-36</span>
+				</div>
+			</div>
+		</div>		
+	</div>	
+	</div>
+	
+
+	<!-- страница МЕНЮ 2 -->
+	<div class="menu nonactive">
+		<div class="modal">
+			<div class="modal-menu-container">
+				<div class="modal-menu-header">
+					<img src="../image/modals/logo.svg">
+					<img src="../image/modals/cancel.svg">
+				</div>
+				<div class="modal-menu-items">
+					<div class="modal-menu-items-item2">
+						<img class="modal-menu-items-item2-img" src="../image/modals/arrow4.svg">
+						<span class="modal-menu-items-item-text">Вернуть права</span>					
+					</div>
+					<div class="line"></div>
+					<span class="modal-menu-font">Сайт рыбатекст</span>
+					<span class="modal-menu-font">Поможет дизайнеру, верстальщику</span>
+					<span class="modal-menu-font">Сайт рыбатекст</span>
+					<span class="modal-menu-font">Вебмастеру сгенерировать</span>	
+					<span class="modal-menu-font">Несколько абзацев</span>
+					<span class="modal-menu-font">Более менее осмысленного текста</span>
+					<span class="modal-menu-font">Рыбы на русском языке</span>
+					<span class="modal-menu-font">Начинающему оратору отточить</span>	
+				</div>
+			</div>		
+		</div>	
+	</div>
+	
+
+	<!-- страница МЕНЮ 3 -->
+	<div class="menu nonactive">
+		<div class="modal">
+			<div class="modal-menu-container">
+				<div class="modal-menu-header">
+					<img src="../image/modals/logo.svg">
+					<img src="../image/modals/cancel.svg">
+				</div>
+				<div class="modal-menu-items-item modal-menu-items-item1">
+					<div class="modal-menu-items-item-too">
+						<img class="modal-menu-items-item-img-right" src="../image/modals/arrow3.svg">
+						<svg class="modal-menu-items-item-img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path d="M10.0001 0C6.08401 0 2.91675 3.13 2.91675 7C2.91675 12.25 10.0001 20 10.0001 20C10.0001 20 17.0834 12.25 17.0834 7C17.0834 3.13 13.9162 0 10.0001 0ZM10.0001 9.5C8.60365 9.5 7.47032 8.38 7.47032 7C7.47032 5.62 8.60365 4.5 10.0001 4.5C11.3965 4.5 12.5298 5.62 12.5298 7C12.5298 8.38 11.3965 9.5 10.0001 9.5Z" fill="black"/>
+						</svg>
+						<span class="modal-menu-items-item-text modal-menu-items-item-text-left">Москва</span>
+					</div>
+				</div>
+				<div class="line"></div>
+				<div class="modal-menu-items">
+					<!-- <div class="line"></div> -->
+					<span class="modal-menu-font">Москва</span>
+					<span class="modal-menu-font">Санкт-Петербург</span>
+					<span class="modal-menu-font">Сочи</span>
+					<span class="modal-menu-font">Казань</span>	
+					<span class="modal-menu-font">Екатеринбург</span>
+					<span class="modal-menu-font">Новосибирск</span>
+					<span class="modal-menu-font">Краснодар</span>	
+				</div>
+			</div>		
+		</div>	
+	</div>
+	
+	<script src="../dist/js/lightbox-plus-jquery.js"></script>
+	<script src="../js/script.js"></script>
+</body>
+</html>

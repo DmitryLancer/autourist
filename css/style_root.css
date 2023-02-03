@@ -1,0 +1,73 @@
+:root {
+    /* background */
+    --c-white: #FFFFFF;
+    --c-whiteBlock: #FFFEF6;
+    --c-yellow: #FFED00;
+    --c-red: #DD4B39;
+    --c-redLight: #FF4646;
+    --c-grey: rgba(0, 0, 0, 0.35);
+    --c-line: rgba(0, 0, 0, 0.15);
+    --c-lightGrey: #E5E5E5;
+    --c-activeButtton: #F9F7E5;
+    --c-activeButtonBorder: #EDEBCF;
+    --c-nonActiveButtonBorder: rgba(0, 0, 0, 0.08);
+    --c-green: #C5B927;
+    --c-shadow: #bfbaba;    
+    --c-fontColor: rgba(0, 0, 0, 0.55);;
+    --c-footer: #597073;
+    --c-footerColor: #E4F1F3;
+    --c-inputColor: rgba(255, 255, 255, 0.7);
+    --c-title: rgba(0, 0, 0, 0.75);
+    --c-button: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), #FFFFFF;
+    --c-lineMadal: rgba(0, 0, 0, 0.06);
+    --c-shadow: rgba(197, 185, 39, 0.2);
+    --c-telegram:  linear-gradient(90deg, #37AEE2 0%, #1E96C8 99.99%);
+    --c-WhatsApp: #1BD741;
+    --c-Viber: #7D539F;
+    --c-buttonColor: #000;
+
+    /* font */ 
+    --font-main: 'Open Sans';
+    --font-weight-main: 400;
+    --font-main-color: rgba(0, 0, 0, 0.75);
+
+}
+
+body {
+    font-family: var(--font-main);
+    font-weight: var(--font-weight-main);
+    color: var(--font-main-color);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    background-color: #F5F5F5;
+    margin: 0;
+  } 
+
+/*img {
+    max-width: 100%;
+}*/
+
+.active {
+    display: block;
+}
+
+.nonactive {
+    display: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding: 0 10px;
+}
+
+@media only screen and (min-width: 992px) {
+    .container{
+    max-width: 1170px;
+    margin: 0 auto;
+    }
+}

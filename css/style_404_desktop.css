@@ -1,0 +1,40 @@
+    body{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .page404__main{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .main__img__div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .main__404__button{
+        margin-top: 40px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), #FFFFFF;
+        color: #FFED00;
+        border: none;
+        border-radius: 6px;
+        padding: 12px 24px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;    
+    }
+    .background__404{
+        background-color: var(--c-lightGrey);
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    .main__img{
+        width: auto;
+    }
